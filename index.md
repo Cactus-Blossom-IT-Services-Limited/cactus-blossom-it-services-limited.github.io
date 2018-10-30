@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cactus Blssom on Github
+title: Cactus Blossom on Github
 ---
 
 Hello from our Github pages based on Bootstrap 4

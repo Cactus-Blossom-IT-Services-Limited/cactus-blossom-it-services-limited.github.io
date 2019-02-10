@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
 {%- include head.html -%}
 
@@ -65,7 +65,7 @@
             </div>
         </div>
 
-        <video width="800" controls>
+        <video width="800" autoplay="true" loop>
             <source src="https://github.com/cactus-blossom-it-services-limited/millais/blob/master/surf_video_trim_no_audio.mp4?raw=true" type="video/mp4">
             Your browser does not support HTML5 video.
         </video>

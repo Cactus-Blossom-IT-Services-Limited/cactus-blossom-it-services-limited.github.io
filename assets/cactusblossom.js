@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  // This generates the text for the popover in the first modal
   var popoverContentTemplate = '' +
       '<div class="info">' +
       '<strong>Whatever you say will be taken</strong>' +
